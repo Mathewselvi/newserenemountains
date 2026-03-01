@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glass {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-glass;
+  }
+
+  .glass-dark {
+    @apply bg-slate-900/80 backdrop-blur-md border border-slate-700/50 shadow-glass;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Explicit marquee animation in case tailwind config fails to compile it quickly */
+  .animate-marquee {
+    animation: scroll-marquee 25s linear infinite;
+  }
+
+  @keyframes scroll-marquee {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-slate-800 antialiased selection:bg-primary-100 selection:text-primary-900 overflow-x-hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply tracking-tight font-semibold text-slate-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-none bg-black text-white font-medium tracking-widest uppercase transition-all duration-500 hover:bg-neutral-800 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 border border-black;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-none border border-black text-black font-medium tracking-widest uppercase transition-all duration-500 hover:bg-black hover:text-white hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 bg-transparent;
+  }
+
+  .btn-glass {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-none bg-white/10 backdrop-blur-md text-white border border-white font-medium tracking-widest uppercase transition-all duration-500 hover:bg-white hover:text-black hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0;
+  }
+}
+
+/* Base custom classes to prevent immediate breakage of the old app structure while migrating */
+.app-container {
+  @apply min-h-screen flex flex-col font-sans;
+}
+
+.main-content {
+  @apply flex-grow;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
