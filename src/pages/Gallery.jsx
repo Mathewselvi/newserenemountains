@@ -7,6 +7,23 @@ const Gallery = () => {
     const images = [
         // Hero / Exterior Images
         { src: '/images/12.jpg', alt: 'Premium Resort Front' },
+
+        // Glass Villa
+        { src: '/images/rooms/glass-villa/IMG_3954.jpg', alt: 'Glass Villa Exterior' },
+        { src: '/images/rooms/glass-villa/IMG_3955.jpg', alt: 'Glass Villa View' },
+        { src: '/images/rooms/glass-villa/IMG_3957.jpg', alt: 'Glass Villa Interior' },
+        { src: '/images/rooms/glass-villa/IMG_3959.jpg', alt: 'Glass Villa Comfort' },
+        { src: '/images/rooms/glass-villa/IMG_4052.jpg', alt: 'Glass Villa Panorama' },
+        { src: '/images/rooms/glass-villa/IMG_4053.jpg', alt: 'Glass Villa Setup' },
+        { src: '/images/rooms/glass-villa/IMG_4054.jpg', alt: 'Glass Villa Nature' },
+        { src: '/images/rooms/glass-villa/IMG_4055.jpg', alt: 'Glass Villa Landscape' },
+        { src: '/images/rooms/glass-villa/IMG_4056.jpg', alt: 'Glass Villa Ambiance' },
+        { src: '/images/rooms/glass-villa/IMG_4057.jpg', alt: 'Glass Villa Detail' },
+        { src: '/images/rooms/glass-villa/IMG_4058.jpg', alt: 'Glass Villa Space' },
+        { src: '/images/rooms/glass-villa/IMG_4060.jpg', alt: 'Glass Villa Elegance' },
+        { src: '/images/rooms/glass-villa/IMG_4061.jpg', alt: 'Glass Villa Setting' },
+        { src: '/images/rooms/glass-villa/IMG_4062.jpg', alt: 'Glass Villa Decor' },
+        { src: '/images/rooms/glass-villa/IMG_4063.jpg', alt: 'Glass Villa Lifestyle' },
         { src: '/images/1.jpg', alt: 'Resort Overview' },
         { src: '/images/2.jpg', alt: 'Resort View' },
         { src: '/images/3.jpg', alt: 'Munnar Mountains' },
@@ -47,22 +64,6 @@ const Gallery = () => {
         { src: '/images/rooms/super-deluxe/IMG_3975.jpg', alt: 'Super Deluxe Layout' },
         { src: '/images/rooms/super-deluxe/IMG_3976.jpg', alt: 'Super Deluxe Style' },
 
-        // Glass Villa
-        { src: '/images/rooms/glass-villa/IMG_3954.jpg', alt: 'Glass Villa Exterior' },
-        { src: '/images/rooms/glass-villa/IMG_3955.jpg', alt: 'Glass Villa View' },
-        { src: '/images/rooms/glass-villa/IMG_3957.jpg', alt: 'Glass Villa Interior' },
-        { src: '/images/rooms/glass-villa/IMG_3959.jpg', alt: 'Glass Villa Comfort' },
-        { src: '/images/rooms/glass-villa/IMG_4052.jpg', alt: 'Glass Villa Panorama' },
-        { src: '/images/rooms/glass-villa/IMG_4053.jpg', alt: 'Glass Villa Setup' },
-        { src: '/images/rooms/glass-villa/IMG_4054.jpg', alt: 'Glass Villa Nature' },
-        { src: '/images/rooms/glass-villa/IMG_4055.jpg', alt: 'Glass Villa Landscape' },
-        { src: '/images/rooms/glass-villa/IMG_4056.jpg', alt: 'Glass Villa Ambiance' },
-        { src: '/images/rooms/glass-villa/IMG_4057.jpg', alt: 'Glass Villa Detail' },
-        { src: '/images/rooms/glass-villa/IMG_4058.jpg', alt: 'Glass Villa Space' },
-        { src: '/images/rooms/glass-villa/IMG_4060.jpg', alt: 'Glass Villa Elegance' },
-        { src: '/images/rooms/glass-villa/IMG_4061.jpg', alt: 'Glass Villa Setting' },
-        { src: '/images/rooms/glass-villa/IMG_4062.jpg', alt: 'Glass Villa Decor' },
-        { src: '/images/rooms/glass-villa/IMG_4063.jpg', alt: 'Glass Villa Lifestyle' }
     ];
 
     const openModal = (index) => {
