@@ -55,23 +55,23 @@ export const roomsData = [
         beds: '1 large double bed',
         amenities: ['Private bathroom', 'Panoramic 360 view', 'Free WiFi', 'Air conditioning', 'Premium Toiletries', 'Free parking', 'Room Service'],
         price: 'Contact for pricing',
-        mainImage: '/images/rooms/glass-villa/IMG_3954.jpg',
+        mainImage: '/images/rooms/glass-villa/1.jpg',
         galleryImages: [
-            '/images/rooms/glass-villa/IMG_3954.jpg',
-            '/images/rooms/glass-villa/IMG_3955.jpg',
+            '/images/rooms/glass-villa/1.jpg',
+            '/images/rooms/glass-villa/2.jpg',
+            '/images/rooms/glass-villa/3.jpg',
+            '/images/rooms/glass-villa/4.jpg',
             '/images/rooms/glass-villa/IMG_3957.jpg',
             '/images/rooms/glass-villa/IMG_3959.jpg',
-            '/images/rooms/glass-villa/IMG_4052.jpg',
-            '/images/rooms/glass-villa/IMG_4053.jpg',
-            '/images/rooms/glass-villa/IMG_4054.jpg',
-            '/images/rooms/glass-villa/IMG_4055.jpg',
-            '/images/rooms/glass-villa/IMG_4056.jpg',
-            '/images/rooms/glass-villa/IMG_4057.jpg',
-            '/images/rooms/glass-villa/IMG_4058.jpg',
             '/images/rooms/glass-villa/IMG_4060.jpg',
-            '/images/rooms/glass-villa/IMG_4061.jpg',
             '/images/rooms/glass-villa/IMG_4062.jpg',
-            '/images/rooms/glass-villa/IMG_4063.jpg'
+            '/images/rooms/glass-villa/IMG_4056.jpg',
+            '/images/rooms/glass-villa/IMG_4058.jpg',
+            '/images/rooms/glass-villa/IMG_4061.jpg',
+            '/images/rooms/glass-villa/IMG_4063.jpg',
+            '/images/rooms/glass-villa/IMG_4053.jpg',
+            '/images/rooms/glass-villa/IMG_4057.jpg',
+            '/images/rooms/glass-villa/IMG_3955.jpg'
         ]
     }
 ];
