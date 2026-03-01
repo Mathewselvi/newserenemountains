@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const heroImages = [
-    '/images/12.jpg',
     '/images/rooms/glass-villa/1.jpg',
     '/images/rooms/glass-villa/2.jpg',
     '/images/rooms/glass-villa/3.jpg',
