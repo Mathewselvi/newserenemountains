@@ -6,6 +6,7 @@ const Gallery = () => {
     const [currentImgIndex, setCurrentImgIndex] = useState(0);
     const images = [
         // Hero / Exterior Images
+        { src: '/images/12.jpg', alt: 'Premium Resort Front' },
         { src: '/images/1.jpg', alt: 'Resort Overview' },
         { src: '/images/2.jpg', alt: 'Resort View' },
         { src: '/images/3.jpg', alt: 'Munnar Mountains' },
